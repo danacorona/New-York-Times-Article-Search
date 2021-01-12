@@ -1,0 +1,16 @@
+.container {
+
+}
+
+.jumbotron {
+    background-color: navy;
+    height: 200px;
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
