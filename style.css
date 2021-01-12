@@ -3,14 +3,14 @@
 }
 
 .jumbotron {
-    background-color: navy;
+    background-color:#00063F;
     height: 200px;
 }
 
-.heading {
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    justify-content: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 75px;
+    padding-top: 40px;
 }
