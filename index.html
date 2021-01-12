@@ -12,13 +12,35 @@
 <body>
     <div class="container">
         <div class="jumbotron">
+            <!-- Header in jumbotron -->
             <header class="heading">
                 <h1> The New York Times Search</h1>
             </header>
         <div>
-            <form action="API/URL">
-
+            <!-- Search Form -->
+            <form action="API/URL" id="form" class="form">
+                <h4>Search Parameters</h4>
+                <div>
+                    <!-- Search Block -->
+                    <label for="search-term" id="search-label" class="search-label">Search Term:</label><br>
+                    <input type="text" id="search-input" class="search-input" name="search"><br>
+                    <!-- Number of Records -->
+                    <label for="number-records" id="number-label" class="number-label">Number of Records to Retrieve:</label><br>
+                    <input type="text" id="number-input" class="number-input" name="number"><br>
+                    <!-- Starty Year -->
+                    <label for="start-year" id="start-label" class="start-label">Start Year (Optional):</label><br>
+                    <input type="text" id="start-input" class="start-input" name="start"><br>
+                    <!-- End Year -->
+                    <label for="end-year" id="end-label" class="end-label">End Year (Optional):</label><br>
+                    <input type="text" id="end-input" class="end-input" name="end"><br>
+                    <!-- Form Buttons -->
+                    <button id="search-btn" class="search-btn">Search</button> <button id="clear-btn" class="clear-btn">Clear Results</button>
+                </div>
             </form>
+        </div>
+        <!-- Results return area -->
+        <div>
+            <h4>Top Articles</h4>
         </div>
 
     </div>
